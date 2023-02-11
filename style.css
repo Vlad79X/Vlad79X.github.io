@@ -1,0 +1,7 @@
+body {
+background-color: #16161a !important;
+}
+.accordion {
+  --bs-accordion-active-color-bg: #351fa6 !important;
+  --bs-accordion-active-color: #795eff !important;
+}
