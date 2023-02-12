@@ -11,49 +11,49 @@
 			--bs-accordion-active-color: #795eff !important;
 		}
 
-		.navbar-nav {
-			--bs-nav-link-color: #E3C9FF !important;
-			--bs-nav-link-hover-color: #FFFFFF !important;
+		.nav-link {
+			--bs-nav-link-hover-color: #ba96e0 !important;
+			--bs-nav-link-color: #ffffff !important;
+			--bs-nav-link-active: #ba96e0 !important;
 		}
 	</style>
 	<title>Dumb site</title>
-	<nav class="navbar sticky-top navbar-expand-lg" style="background-color: #3e27b3;" data-bs-theme="dark">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+</head>
+<body>
+	<nav class="navbar sticky-top navbar-expand-lg" style="background-color: #3e27b3; --bs-nav-link-color: #e3c9ff; --bs-nav-link-hover-color: #ffffff;" data-bs-theme="dark">
 		<div class="container-fluid">
 			<img src="VLADNEW.png" class="rounded mx-auto d-block" alt="Logo" width="42" height="42">
 			<a class="navbar-brand ms-2 my-auto" href="index.html">
 				<h2>Vlad79X</h2>
 			</a>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2">
-					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="projects.html">C++ Projects</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="gameprojects.html">GameDev Projects</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="youtube.html">Youtube channel</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="about.html">About me</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="linktree.html">My links</a>
-					</li>
-				</ul>
-			</div>
+			<ul class="navbar-nav me-auto mb-2">
+				<li class="nav-item">
+					<a class="nav-link" aria-current="page" href="projects.html">C++ Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" aria-current="page" href="gameprojects.html">GameDev Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" aria-current="page" href="youtube.html">Youtube channel</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" aria-current="page" href="about.html">About me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" aria-current="page" href="linktree.html">My links</a>
+				</li>
+			</ul>
 		</div>
 	</nav>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-</head>
-<body>
 	<div class="container-fluid m-4">
 		<div class="row align-items-start">
 			<div class="col m-3">
-				<img src="VLADNEW.png" class="rounded mx-auto d-block" alt="Logo" width="500" height="500">
+				<img src="VLADNEW.png" class="rounded my-auto mx-auto d-block" alt="Logo" width="500" height="500">
+				<em class="text-light">Hello and welcome to my website, hope you enjoy your stay. Here are a couple of useful things :) -></em>
 			</div>
 			<div class="col m-3">
-				<div class="card my-4" style="width: 20rem;">
+				<div class="card text-bg-dark border-light  my-4" style="width: 20rem;" data-bs-theme="dark">
 					<img src="VLADNEW_GALAXY.jpg" height="300" width="300" class="card-img-top" alt="logo">
 					<div class="card-body">
 						<h5 class="card-title">My C++ Projects</h5>
@@ -61,7 +61,7 @@
 						<a href="projects.html" class="btn" style="background-color: #8926F6; color: white;">C++ Projects</a>
 					</div>
 				</div>
-				<div class="card my-4" style="width: 20rem;">
+				<div class="card text-bg-dark border-light  my-4" style="width: 20rem;" data-bs-theme="dark">
 					<img src="Banner.jpg" height="300" width="300" class="card-img-top" alt="banner">
 					<div class="card-body">
 						<h5 class="card-title">My Youtube channel</h5>
@@ -71,7 +71,7 @@
 				</div>
 			</div>
 			<div class="col m-3">
-				<div class="card my-4" style="width: 20rem;">
+				<div class="card text-bg-dark border-light my-4" style="width: 20rem;" data-bs-theme="dark">
 					<img src="VLADNEW_SKY.jpg" height="300" width="300" class="card-img-top" alt="logo">
 					<div class="card-body">
 						<h5 class="card-title">My GameDev Projects</h5>
@@ -79,7 +79,7 @@
 						<a href="projects.html" class="btn" style="background-color: #38ADF7; color: white; ">GameDev Projects</a>
 					</div>
 				</div>
-				<div class="card my-4" style="width: 20rem;">
+				<div class="card text-bg-dark border-light  my-4" style="width: 20rem;" data-bs-theme="dark">
 					<img src="VLADNEW.png" height="300" width="300" class="card-img-top" alt="logo">
 					<div class="card-body">
 						<h5 class="card-title">My About page</h5>
