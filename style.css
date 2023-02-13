@@ -1,7 +1,35 @@
-body {
-background-color: #16161a !important;
-}
-.accordion {
-  --bs-accordion-active-color-bg: #351fa6 !important;
-  --bs-accordion-active-color: #795eff !important;
-}
+:root {
+	         --bg: #16161a;
+	         --nav: #3e27b3;
+             --linkb: #ba96e0;
+        }
+		body {
+			background-color: var(--bg) !important;
+		}
+
+        .navbar {
+            background-color: var(--nav) !important;
+        }
+
+		.accordion {
+			--bs-accordion-active-color-bg: var(--bg) !important;
+			--bs-accordion-active-color: var(--linkb) !important;
+		}
+
+		.nav-link {
+			--bs-nav-link-hover-color: var(--linkb) !important;
+			--bs-navbar-active-color: var(--linkb) !important;
+			--bs-nav-link-color: white !important;
+			--bs-nav-link-active: var(--linkb) !important;
+		}
+
+		.navbar-brand {
+			--bs-navbar-brand-padding-y = 0rem !important;
+		}
+		
+		.card {
+		    --bs-body-bg: var(--bg) !important;
+		    --bs-card-title-color: #8e7bec !important;
+		    --bs-card-border-color : var(--linkb) !important;
+		    --bs-card-color: white !important;
+		}
