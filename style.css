@@ -2,6 +2,7 @@
 	         --bg: #16161a;
 	         --nav: #3e27b3;
              	 --linkb: #ba96e0;
+		--thing: #8e7bec;
         }
 		body {
 			background-color: var(--bg) !important;
@@ -29,7 +30,7 @@
 		
 		.card {
 		    --bs-body-bg: var(--bg) !important;
-		    --bs-card-title-color: #8e7bec !important;
+		    --bs-card-title-color: white !important;
 		    --bs-card-border-color : white !important;
 		    --bs-card-color: white !important;
 }
