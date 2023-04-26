@@ -36,9 +36,6 @@
 		}
 
 		.alert-light {
-			--bs-alert-color: var(--bs-light-text-emphasis);
-			--bs-alert-bg: transparent;
-			--bs-alert-border-color: var(--bs-light-border-subtle);
-			--bs-alert-link-color: var(--bs-light-text-emphasis);
+			--bs-alert-bg: transparent !important;
 		}
 
