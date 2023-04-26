@@ -3,7 +3,7 @@
 	         --nav: #3e27b3;
              	 --linkb: #ba96e0;
 		--thing: #8e7bec;
-        }
+}
 		body {
 			background-color: var(--bg) !important;
 		}
@@ -33,4 +33,12 @@
 		    --bs-card-title-color: white !important;
 		    --bs-card-border-color : white !important;
 		    --bs-card-color: white !important;
-}
+		}
+
+		.alert-light {
+			--bs-alert-color: var(--bs-light-text-emphasis);
+			--bs-alert-bg: transparent;
+			--bs-alert-border-color: var(--bs-light-border-subtle);
+			--bs-alert-link-color: var(--bs-light-text-emphasis);
+		}
+
