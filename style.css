@@ -36,6 +36,10 @@
 		}
 
 		.alert-light {
-			--bs-alert-bg: transparent !important;
+			--bs-alert-bg: var(--bg) !important;
+		}
+
+		.alert {
+			--bs-alert-bg: var(--bg) !important;
 		}
 
